@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="All rights reserved"
+[[mods]]
+modId="iftweaks"
+version="${file.jarVersion}"
+displayName="Industrial Foregoing Tweaks"
+logoFile="iftweaks.png"
+credits="Thanks for this example mod goes to Java"
+authors="Karashok Leo"
+description='''
+
+'''
+[[dependencies.iftweaks]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.iftweaks]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.iftweaks]]
+    modId = "industrialforegoing"
+    mandatory = true
+    versionRange = "[3.3.2.3,)"
+    ordering = "NONE"
+    side = "BOTH"
